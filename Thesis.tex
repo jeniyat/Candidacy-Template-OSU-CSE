@@ -1,0 +1,72 @@
+\documentclass{osudissert96}
+
+
+
+
+\input{premable}
+
+
+
+% BibTeX from the BiBTeX Documentation
+
+
+\begin{document}
+
+%
+% First, declare the parts of your title page 
+%
+
+\author{The Author Name}
+\title{Title for Candidacy Proposal}
+\unit{Department of Computer Science and Engineering}
+
+
+% \coadvisorname{Advisor 1, Advisor 2}
+\advisorname{Name of Advisor}
+\member{Committee member 1}
+\member{Committee member 2}
+\member{Committee member 3}
+
+
+\maketitle
+
+
+
+%
+% Abstract goes here.
+%
+\begin{small}
+
+\begin{abstract}
+    \input{1_abstract}
+\end{abstract}
+
+\tableofcontents
+
+
+\end{small}
+
+
+\begin{normalsize}
+
+\include{2_introduction}
+\include{3_chapter-1}
+\include{4_conclusion}
+\end{normalsize}
+
+
+\begin{footnotesize}
+\begin{spacing}{0.6}
+
+\bibliographystyle{acl_natbib}
+\bibliography{references}
+
+\end{spacing}
+\end{footnotesize}
+
+
+\end{document}
+
+
+
+
